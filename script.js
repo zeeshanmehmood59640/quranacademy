@@ -111,14 +111,41 @@ function validateForm(formData) {
         errors.push('Name is required');
     }
     
-    if (!formData.email || formData.email.trim() === '') {
-        errors.push('Email is required');
-    } else if (!isValidEmail(formData.email)) {
+    if (!formData.father_name || formData.father_name.trim() === '') {
+        errors.push('Father\'s name is required');
+    }
+    
+    if (!formData.gender || formData.gender === '') {
+        errors.push('Please select gender');
+    }
+    
+    if (!formData.age || formData.age === '') {
+        errors.push('Age is required');
+    }
+    
+    if (!formData.contact || formData.contact.trim() === '') {
+        errors.push('Contact number is required');
+    }
+    
+    if (!formData.address || formData.address.trim() === '') {
+        errors.push('Address is required');
+    }
+    
+    // Email is optional, but if provided, validate format
+    if (formData.email && formData.email.trim() !== '' && !isValidEmail(formData.email)) {
         errors.push('Please enter a valid email address');
     }
     
-    if (!formData.service || formData.service === '') {
-        errors.push('Please select a service');
+    if (!formData.course || formData.course === '') {
+        errors.push('Please select a course');
+    }
+    
+    if (!formData.background || formData.background === '') {
+        errors.push('Please select student background');
+    }
+    
+    if (!formData.weekly_days || formData.weekly_days === '') {
+        errors.push('Please select preferred weekly class days');
     }
     
     if (errors.length > 0) {

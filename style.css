@@ -457,89 +457,6 @@ blockquote {
     font-weight: 600;
 }
 
-/* Martial Arts Section */
-.martial-arts {
-    padding: 80px 0;
-    background: var(--light-bg);
-}
-
-.martial-arts-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 4rem;
-    align-items: center;
-}
-
-.martial-arts-image {
-    position: relative;
-}
-
-.martial-arts-image img {
-    width: 100%;
-    height: auto;
-    border-radius: 15px;
-    box-shadow: var(--shadow-hover);
-    transition: var(--transition);
-}
-
-.martial-arts-image img:hover {
-    transform: scale(1.02);
-}
-
-.martial-arts-text h2 {
-    color: var(--primary-color);
-    margin-bottom: 1.5rem;
-    font-size: 2.2rem;
-}
-
-.martial-arts-text h3 {
-    color: var(--primary-color);
-    margin: 2rem 0 1rem 0;
-    font-size: 1.4rem;
-}
-
-.martial-arts-text p {
-    color: var(--text-dark);
-    margin-bottom: 1.5rem;
-    line-height: 1.7;
-}
-
-.martial-arts-list {
-    list-style: none;
-    margin: 1.5rem 0;
-}
-
-.martial-arts-list li {
-    padding: 0.8rem 0;
-    color: var(--text-dark);
-    position: relative;
-    padding-left: 35px;
-    font-size: 1.1rem;
-}
-
-.martial-arts-list li i {
-    position: absolute;
-    left: 0;
-    color: var(--secondary-color);
-    margin-top: 3px;
-    font-size: 1.2rem;
-}
-
-.martial-arts-highlight {
-    background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
-    color: var(--white);
-    padding: 1.5rem;
-    border-radius: 10px;
-    margin-top: 2rem;
-    box-shadow: var(--shadow);
-}
-
-.martial-arts-highlight p {
-    color: var(--white);
-    margin-bottom: 0;
-    font-weight: 500;
-}
-
 /* Services Section */
 .services {
     padding: 80px 0;
@@ -941,15 +858,6 @@ blockquote {
         padding: 1.5rem;
     }
     
-    .martial-arts-content {
-        grid-template-columns: 1fr;
-        gap: 2rem;
-    }
-    
-    .martial-arts-text h2 {
-        font-size: 1.8rem;
-    }
-    
     .services-grid {
         grid-template-columns: 1fr;
     }
@@ -1037,14 +945,6 @@ blockquote {
     .contact-form,
     .reason-card {
         padding: 1.5rem;
-    }
-    
-    .martial-arts-text h2 {
-        font-size: 1.5rem;
-    }
-    
-    .martial-arts-list li {
-        font-size: 1rem;
     }
     
     .hero-buttons {
