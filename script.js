@@ -312,7 +312,7 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
     // Create WhatsApp floating button
     const whatsappBtn = document.createElement('a');
-    whatsappBtn.href = 'https://wa.me/15551234567'; // Replace with your WhatsApp number
+    whatsappBtn.href = 'https://wa.me/923195230845'; // Gaza Quran Academy WhatsApp number
     whatsappBtn.target = '_blank';
     whatsappBtn.innerHTML = '<i class="fab fa-whatsapp"></i>';
     whatsappBtn.className = 'whatsapp-float';
